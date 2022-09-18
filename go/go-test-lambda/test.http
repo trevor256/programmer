@@ -1,0 +1,6 @@
+post https://lhy0haask5.execute-api.us-east-1.amazonaws.com/gotest
+Content-Type: application/json
+{
+    "firstName": "trevor",
+    "lastName": "roach"
+}
