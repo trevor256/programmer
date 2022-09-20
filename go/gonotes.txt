@@ -1,2 +1,0 @@
-for some reason when building on fedora for lambda the c libs cause an issue and it must be built with CGO_ENABLED=0
-	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -o main main.go
