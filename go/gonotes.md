@@ -38,8 +38,15 @@ a lot of multiable var: var (
 				d, e = 40, "ello"
 			     )
 
+------ Const
 
+do not write CONSTS in all upercase, go uses case of first letter to diclare pakage avalability  
+unused consts are removed at build 
+only use const in global 
 
+=========Compsite Types 
+	
+	
 =========Build issues 
 
 for some reason when building on fedora for lambda the c libs cause an issue and it must be built with command CGO_ENABLED=0
